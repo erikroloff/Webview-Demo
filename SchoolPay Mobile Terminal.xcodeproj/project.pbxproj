@@ -1,0 +1,486 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		198225CE1953B81500D3A4DF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 198225CD1953B81500D3A4DF /* Foundation.framework */; };
+		198225D01953B81500D3A4DF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 198225CF1953B81500D3A4DF /* CoreGraphics.framework */; };
+		198225D21953B81500D3A4DF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 198225D11953B81500D3A4DF /* UIKit.framework */; };
+		198225D81953B81500D3A4DF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 198225D61953B81500D3A4DF /* InfoPlist.strings */; };
+		198225DA1953B81500D3A4DF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 198225D91953B81500D3A4DF /* main.m */; };
+		198225DE1953B81500D3A4DF /* SPMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 198225DD1953B81500D3A4DF /* SPMAppDelegate.m */; };
+		198225E11953B81500D3A4DF /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 198225DF1953B81500D3A4DF /* Main_iPhone.storyboard */; };
+		198225E41953B81500D3A4DF /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 198225E21953B81500D3A4DF /* Main_iPad.storyboard */; };
+		198225E71953B81500D3A4DF /* SPMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 198225E61953B81500D3A4DF /* SPMViewController.m */; };
+		198225E91953B81500D3A4DF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 198225E81953B81500D3A4DF /* Images.xcassets */; };
+		198225F01953B81500D3A4DF /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 198225EF1953B81500D3A4DF /* XCTest.framework */; };
+		198225F11953B81500D3A4DF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 198225CD1953B81500D3A4DF /* Foundation.framework */; };
+		198225F21953B81500D3A4DF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 198225D11953B81500D3A4DF /* UIKit.framework */; };
+		198225FA1953B81500D3A4DF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 198225F81953B81500D3A4DF /* InfoPlist.strings */; };
+		198225FC1953B81500D3A4DF /* SchoolPay_Mobile_TerminalTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 198225FB1953B81500D3A4DF /* SchoolPay_Mobile_TerminalTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		198225F31953B81500D3A4DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 198225C21953B81500D3A4DF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 198225C91953B81500D3A4DF;
+			remoteInfo = "SchoolPay Mobile Terminal";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		198225CA1953B81500D3A4DF /* SchoolPay Mobile Terminal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SchoolPay Mobile Terminal.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		198225CD1953B81500D3A4DF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		198225CF1953B81500D3A4DF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		198225D11953B81500D3A4DF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		198225D51953B81500D3A4DF /* SchoolPay Mobile Terminal-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SchoolPay Mobile Terminal-Info.plist"; sourceTree = "<group>"; };
+		198225D71953B81500D3A4DF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		198225D91953B81500D3A4DF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		198225DB1953B81500D3A4DF /* SchoolPay Mobile Terminal-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SchoolPay Mobile Terminal-Prefix.pch"; sourceTree = "<group>"; };
+		198225DC1953B81500D3A4DF /* SPMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SPMAppDelegate.h; sourceTree = "<group>"; };
+		198225DD1953B81500D3A4DF /* SPMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SPMAppDelegate.m; sourceTree = "<group>"; };
+		198225E01953B81500D3A4DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		198225E31953B81500D3A4DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		198225E51953B81500D3A4DF /* SPMViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SPMViewController.h; sourceTree = "<group>"; };
+		198225E61953B81500D3A4DF /* SPMViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SPMViewController.m; sourceTree = "<group>"; };
+		198225E81953B81500D3A4DF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		198225EE1953B81500D3A4DF /* SchoolPay Mobile TerminalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SchoolPay Mobile TerminalTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		198225EF1953B81500D3A4DF /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		198225F71953B81500D3A4DF /* SchoolPay Mobile TerminalTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SchoolPay Mobile TerminalTests-Info.plist"; sourceTree = "<group>"; };
+		198225F91953B81500D3A4DF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		198225FB1953B81500D3A4DF /* SchoolPay_Mobile_TerminalTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SchoolPay_Mobile_TerminalTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		198225C71953B81500D3A4DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				198225D01953B81500D3A4DF /* CoreGraphics.framework in Frameworks */,
+				198225D21953B81500D3A4DF /* UIKit.framework in Frameworks */,
+				198225CE1953B81500D3A4DF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		198225EB1953B81500D3A4DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				198225F01953B81500D3A4DF /* XCTest.framework in Frameworks */,
+				198225F21953B81500D3A4DF /* UIKit.framework in Frameworks */,
+				198225F11953B81500D3A4DF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		198225C11953B81500D3A4DF = {
+			isa = PBXGroup;
+			children = (
+				198225D31953B81500D3A4DF /* SchoolPay Mobile Terminal */,
+				198225F51953B81500D3A4DF /* SchoolPay Mobile TerminalTests */,
+				198225CC1953B81500D3A4DF /* Frameworks */,
+				198225CB1953B81500D3A4DF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		198225CB1953B81500D3A4DF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				198225CA1953B81500D3A4DF /* SchoolPay Mobile Terminal.app */,
+				198225EE1953B81500D3A4DF /* SchoolPay Mobile TerminalTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		198225CC1953B81500D3A4DF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				198225CD1953B81500D3A4DF /* Foundation.framework */,
+				198225CF1953B81500D3A4DF /* CoreGraphics.framework */,
+				198225D11953B81500D3A4DF /* UIKit.framework */,
+				198225EF1953B81500D3A4DF /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		198225D31953B81500D3A4DF /* SchoolPay Mobile Terminal */ = {
+			isa = PBXGroup;
+			children = (
+				198225DC1953B81500D3A4DF /* SPMAppDelegate.h */,
+				198225DD1953B81500D3A4DF /* SPMAppDelegate.m */,
+				198225DF1953B81500D3A4DF /* Main_iPhone.storyboard */,
+				198225E21953B81500D3A4DF /* Main_iPad.storyboard */,
+				198225E51953B81500D3A4DF /* SPMViewController.h */,
+				198225E61953B81500D3A4DF /* SPMViewController.m */,
+				198225E81953B81500D3A4DF /* Images.xcassets */,
+				198225D41953B81500D3A4DF /* Supporting Files */,
+			);
+			path = "SchoolPay Mobile Terminal";
+			sourceTree = "<group>";
+		};
+		198225D41953B81500D3A4DF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				198225D51953B81500D3A4DF /* SchoolPay Mobile Terminal-Info.plist */,
+				198225D61953B81500D3A4DF /* InfoPlist.strings */,
+				198225D91953B81500D3A4DF /* main.m */,
+				198225DB1953B81500D3A4DF /* SchoolPay Mobile Terminal-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		198225F51953B81500D3A4DF /* SchoolPay Mobile TerminalTests */ = {
+			isa = PBXGroup;
+			children = (
+				198225FB1953B81500D3A4DF /* SchoolPay_Mobile_TerminalTests.m */,
+				198225F61953B81500D3A4DF /* Supporting Files */,
+			);
+			path = "SchoolPay Mobile TerminalTests";
+			sourceTree = "<group>";
+		};
+		198225F61953B81500D3A4DF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				198225F71953B81500D3A4DF /* SchoolPay Mobile TerminalTests-Info.plist */,
+				198225F81953B81500D3A4DF /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		198225C91953B81500D3A4DF /* SchoolPay Mobile Terminal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 198225FF1953B81500D3A4DF /* Build configuration list for PBXNativeTarget "SchoolPay Mobile Terminal" */;
+			buildPhases = (
+				198225C61953B81500D3A4DF /* Sources */,
+				198225C71953B81500D3A4DF /* Frameworks */,
+				198225C81953B81500D3A4DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SchoolPay Mobile Terminal";
+			productName = "SchoolPay Mobile Terminal";
+			productReference = 198225CA1953B81500D3A4DF /* SchoolPay Mobile Terminal.app */;
+			productType = "com.apple.product-type.application";
+		};
+		198225ED1953B81500D3A4DF /* SchoolPay Mobile TerminalTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 198226021953B81500D3A4DF /* Build configuration list for PBXNativeTarget "SchoolPay Mobile TerminalTests" */;
+			buildPhases = (
+				198225EA1953B81500D3A4DF /* Sources */,
+				198225EB1953B81500D3A4DF /* Frameworks */,
+				198225EC1953B81500D3A4DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				198225F41953B81500D3A4DF /* PBXTargetDependency */,
+			);
+			name = "SchoolPay Mobile TerminalTests";
+			productName = "SchoolPay Mobile TerminalTests";
+			productReference = 198225EE1953B81500D3A4DF /* SchoolPay Mobile TerminalTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		198225C21953B81500D3A4DF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SPM;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Erik Roloff";
+				TargetAttributes = {
+					198225ED1953B81500D3A4DF = {
+						TestTargetID = 198225C91953B81500D3A4DF;
+					};
+				};
+			};
+			buildConfigurationList = 198225C51953B81500D3A4DF /* Build configuration list for PBXProject "SchoolPay Mobile Terminal" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 198225C11953B81500D3A4DF;
+			productRefGroup = 198225CB1953B81500D3A4DF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				198225C91953B81500D3A4DF /* SchoolPay Mobile Terminal */,
+				198225ED1953B81500D3A4DF /* SchoolPay Mobile TerminalTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		198225C81953B81500D3A4DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				198225E41953B81500D3A4DF /* Main_iPad.storyboard in Resources */,
+				198225E91953B81500D3A4DF /* Images.xcassets in Resources */,
+				198225E11953B81500D3A4DF /* Main_iPhone.storyboard in Resources */,
+				198225D81953B81500D3A4DF /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		198225EC1953B81500D3A4DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				198225FA1953B81500D3A4DF /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		198225C61953B81500D3A4DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				198225E71953B81500D3A4DF /* SPMViewController.m in Sources */,
+				198225DA1953B81500D3A4DF /* main.m in Sources */,
+				198225DE1953B81500D3A4DF /* SPMAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		198225EA1953B81500D3A4DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				198225FC1953B81500D3A4DF /* SchoolPay_Mobile_TerminalTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		198225F41953B81500D3A4DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 198225C91953B81500D3A4DF /* SchoolPay Mobile Terminal */;
+			targetProxy = 198225F31953B81500D3A4DF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		198225D61953B81500D3A4DF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				198225D71953B81500D3A4DF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		198225DF1953B81500D3A4DF /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				198225E01953B81500D3A4DF /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		198225E21953B81500D3A4DF /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				198225E31953B81500D3A4DF /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		198225F81953B81500D3A4DF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				198225F91953B81500D3A4DF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		198225FD1953B81500D3A4DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		198225FE1953B81500D3A4DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		198226001953B81500D3A4DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SchoolPay Mobile Terminal/SchoolPay Mobile Terminal-Prefix.pch";
+				INFOPLIST_FILE = "SchoolPay Mobile Terminal/SchoolPay Mobile Terminal-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		198226011953B81500D3A4DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SchoolPay Mobile Terminal/SchoolPay Mobile Terminal-Prefix.pch";
+				INFOPLIST_FILE = "SchoolPay Mobile Terminal/SchoolPay Mobile Terminal-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		198226031953B81500D3A4DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SchoolPay Mobile Terminal.app/SchoolPay Mobile Terminal";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SchoolPay Mobile Terminal/SchoolPay Mobile Terminal-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SchoolPay Mobile TerminalTests/SchoolPay Mobile TerminalTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		198226041953B81500D3A4DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SchoolPay Mobile Terminal.app/SchoolPay Mobile Terminal";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SchoolPay Mobile Terminal/SchoolPay Mobile Terminal-Prefix.pch";
+				INFOPLIST_FILE = "SchoolPay Mobile TerminalTests/SchoolPay Mobile TerminalTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		198225C51953B81500D3A4DF /* Build configuration list for PBXProject "SchoolPay Mobile Terminal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				198225FD1953B81500D3A4DF /* Debug */,
+				198225FE1953B81500D3A4DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		198225FF1953B81500D3A4DF /* Build configuration list for PBXNativeTarget "SchoolPay Mobile Terminal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				198226001953B81500D3A4DF /* Debug */,
+				198226011953B81500D3A4DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		198226021953B81500D3A4DF /* Build configuration list for PBXNativeTarget "SchoolPay Mobile TerminalTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				198226031953B81500D3A4DF /* Debug */,
+				198226041953B81500D3A4DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 198225C21953B81500D3A4DF /* Project object */;
+}
