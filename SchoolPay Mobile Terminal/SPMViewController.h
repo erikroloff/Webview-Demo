@@ -10,4 +10,7 @@
 
 @interface SPMViewController : UIViewController
 
+@property (strong, nonatomic) IBOutlet UIWebView *webview;
+
+
 @end
